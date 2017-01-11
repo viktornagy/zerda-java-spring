@@ -1,0 +1,17 @@
+<html layout:decorator="layout" xmlns:layout="http://www.w3.org/1999/xhtml">
+
+<div layout:fragment="content">
+
+    <h1>Thank you for visiting our website! To get early access to our planned projects, please fill in the following quick questionnaire.</h1>
+
+    <div layout:fragment="content">
+        <form method="post" name="comment_form" id="comment_form" action="/feedback/create" role="form">
+            <div class="form-group">
+                <label for="feedback">Post</label>
+                <textarea rows="5" class="form-control" id="feedback" name="feedback"/>
+            </div>
+            <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>>
+</div>
+</html>
